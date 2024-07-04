@@ -1,0 +1,82 @@
+/* Narzędzia */
+.mainScreen {
+  display: flex;
+  background-color: rgb(208, 178, 12);
+}
+
+/* Kalendarz */
+.calendar {
+  height: 100vh;
+  width: 80vw;
+}
+.toolbar {
+  height: 100vh;
+  width: 20%;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 45, 86, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 998;
+}
+
+.modal-content {
+  background-color: rgb(235, 235, 235);
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(3, 55, 103, 0.8);
+  z-index: 999;
+}
+
+/*Calendar*/
+/*Header*/
+.rbc-toolbar {
+  height: 10vh;
+  color: brown;
+  font-size: 25px;
+  font-weight: bold;
+}
+.rbc-btn-group > button {
+  border: 0;
+}
+.rbc-toolbar button {
+  color: blueviolet;
+  border: 1px solid black;
+}
+
+.rbc-toolbar button:active,
+.rbc-toolbar button.rbc-active {
+  background-color: cornflowerblue;
+  border-color: chartreuse;
+}
+
+/*Corpo*/
+.rbc-month-view {
+  border-color: rgb(5, 38, 26);
+}
+.rbc-month-row + .rbc-month-row {
+  border-color: rgb(133, 188, 167);
+}
+.rbc-day-bg + .rbc-day-bg {
+  border-color: darkblue;
+}
+
+/*Mes*/
+.rbc-header {
+  color: rgba(3, 55, 103, 0.8);
+  border-color: azure;
+}
+.rbc-header + .rbc-header {
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-color: bisque;
+}

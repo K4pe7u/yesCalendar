@@ -1,9 +1,12 @@
 import React from "react";
-
-import Dashboard from "views/Dashboard";
+import Calendar from "./view/YesCalendar";
 
 const App = () => {
-  return <div>{<Dashboard />}</div>;
+  return (
+    <>
+      <Calendar />;
+    </>
+  );
 };
 
 export default App;
